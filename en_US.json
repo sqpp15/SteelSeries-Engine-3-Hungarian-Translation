@@ -32,7 +32,7 @@
       "start": "Start",
       "notConnected": "Leválasztva",
       "about": "Névjegy",
-      "clear": "Clear",
+      "clear": "Törlés",
       "rename": "Átnevezés",
       "manage": "Kezelés",
       "wheel": "Wheel",
@@ -71,7 +71,7 @@
       "steelseriesID": "SteelSeries ID",
       "intensity": "Intensity",
       "slow": "Slow",
-      "medium": "Medium",
+      "medium": "Közepes",
       "fast": "Fast",
       "brightness": "Brightness",
       "headset": "Headset",
@@ -99,8 +99,8 @@
       "overwrite": "Overwrite",
       "keepBoth": "Keep Both",
       "dontShowThisAgain": "Don't show this again",
-      "image": "Image",
-      "upload": "Upload",
+      "image": "Kép",
+      "upload": "Feltöltés",
       "contrast": "Contrast",
       "lcd": "LCD",
       "macro": "Macro",
@@ -134,8 +134,8 @@
       "retry": "Retry",
       "refresh": "Refresh",
       "installing": "Installing",
-      "speakers": "Speakers",
-      "microphone": "Microphone",
+      "speakers": "Hangszórók",
+      "microphone": "Mikrofon",
       "all": "All",
       "headsets": "Headsetek",
       "mice": "Egér",
@@ -277,7 +277,7 @@
       "startupSetting": {
         "label": "Automatikus indítás SteelSeries Engine 3 bejelentkezéskor"
       },
-      "launch": "Launch",
+      "launch": "Indítás",
       "softwareVersion": "Szoftver Verziója",
       "preferences": {
         "title": "Preferences",
@@ -514,31 +514,31 @@
       }
       },
     "deviceConfig": {
-      "railTitle": "Configurations",
-      "showConfigsBtn": "Configs",
-      "configName": "Name",
+      "railTitle": "Konfigurációk",
+      "showConfigsBtn": "Konfigurációk",
+      "configName": "Név",
       "modalTitle": "Delete Configuration",
       "modalText": "Are you sure you want to delete configuration PROFILE_NAME?",
-      "defaultName": "Config ",
-      "duplicate": "Duplicate",
-      "configDialogTitle": "New Configuration",
-      "editConfigDialogTitle": "Edit Configuration",
-      "modalRevertConfigTitle": "Discard Changes",
-      "modalRevertConfigText": "Your changes have not been saved. Discard changes?",
+      "defaultName": "Konfig ",
+      "duplicate": "Duplázás",
+      "configDialogTitle": "Új konfiguráció",
+      "editConfigDialogTitle": "Konfiguráció szerkesztése",
+      "modalRevertConfigTitle": "Módosítások elvetése",
+      "modalRevertConfigText": "A változások nem lettek mentve. Elveti a változásokat?",
       "livePreview": {
         "on": "Élő megtekintés Be",
         "off": "Élő megtekintés Ki"
       },
-      "applicationAutoLaunch": "Autolaunch with Applications",
+      "applicationAutoLaunch": "Automatikus indítás az alkalmazással",
       "modalSaveImmutableText": "This configuration cannot be overwritten. Would you like to save this as a new configuration?",
       "errors": {
         "configNameTaken": "This configuration name is not available"
       },
       "duplicateConfigDialogTitle": "Duplicate Configuration",
       "missingLeftClickBindingWarning": "Removing the Button 1 action will make your mouse unusable.  Are you sure you want to do this?",
-      "deviceViewLeft": "Left",
-      "deviceViewTop": "Top",
-      "deviceViewRight": "Right",
+      "deviceViewLeft": "Bal",
+      "deviceViewTop": "Felül",
+      "deviceViewRight": "Jobb",
       "quickset": {
         "launchApplication": {
           "title": "Launch Application",
@@ -602,7 +602,7 @@
       "lightsOutGameModal": "Use the Keypad Enter key to start the game, and use the keypad number keys to try to turn off all the lights.",
       "snakeGameModal": "Use the Keypad Enter key to start the game, and use the arrow keys to control your snake.",
       "onboardProfiles": {
-        "railTitle": "On-Board Profiles",
+        "railTitle": "Eszköz profilok",
         "tooltip": "On-board profiles store nearly all the settings you apply to a configuration in Engine, including button bindings, macros and illumination settings.<br><br>Drag and drop to import or export settings from the mouse.<br><br>#DEVICE_SPECIFIC_TOOLTIP#<br><br>The first on-board profile cannot be overwritten. This profile is designated for Engine use.",
         "plugIn": "Plug in #DEVICENAME# to see On-Board Profiles",
         "firstTimeImport": {
@@ -679,8 +679,8 @@
       },
       "noiseCancellation": "Mic Noise Reduction",
       "dolby": "Dolby Headphone",
-      "micVolume": "Mic Volume",
-      "sideTone": "Mic Sidetone",
+      "micVolume": "Mikrofon hangerő",
+      "sideTone": "Mikrofon önhang",
       "autoMicGain": "Auto Mic Compression",
       "led": {
         "effects": {
@@ -757,20 +757,20 @@
         "chatMix": "<p>Note! - ChatMix is only available for Sources with separate game and chat audio inputs.</p><p>ChatMix allows you to adjust the balance between the game and chat audio streams. The 12:00 position is full volume of both streams. Rotating towards game reduces the chat volume and vice versa.</p>",
         "liveMix": "<p>Note! - LiveMix is only available for Sources with separate game and chat audio inputs.</p><p>LiveMix automatically reduces the level of game volume when chat audio is present and returns the game audio to full when chat is silent.  Drag the lines up or down to choose the amount (in dB) that the game audio level will reduce when chat is present.</p>"
       },
-      "acceleration": "Acceleration",
-      "deceleration": "Deceleration",
-      "sensitivity": "Sensitivity",
-      "speedOfHandMovement": "Speed of Hand Movement",
+      "acceleration": "Gyorsítás",
+      "deceleration": "Lassítás",
+      "sensitivity": "Érzékenység",
+      "speedOfHandMovement": "A kéz mozgásának gyorsasága",
       "accelDecelTitle": "Acceleration / Deceleration",
-      "cpi": "Sensitivity CPI_NUM (CPI CPI_NUM)",
+      "cpi": "Érzékenység CPI_NUM (CPI CPI_NUM)",
       "cpiLabel": "CPI CPI_NUM",
       "cpiInputLabel": "CPI",
       "dcpiInputLabel": "DCPI",
-      "pollingRateTitle": "Polling Rate",
-      "angleSnappingTitle": "Angle Snapping",
+      "pollingRateTitle": "Szelektivitás aránya",
+      "angleSnappingTitle": "Szög Elkapása",
       "quickset": {
         "placeholder": "Quick Record",
-        "title": "#TITLE# Settings",
+        "title": "#TITLE# Beállítások",
         "buttonBinding": "Button Binding",
         "playbackOptions": "Playback Options",
         "tactileSettings": "Tactile Settings",
@@ -793,14 +793,14 @@
         "halfCpi": "1/2"
       },
       "action": {
-        "button1": "Button 1",
-        "button2": "Button 2",
-        "button3": "Button 3",
-        "button4": "Button 4",
-        "button5": "Button 5",
-        "button6": "Button 6",
-        "scrollUp": "Scroll Up",
-        "scrollDown": "Scroll Down"
+        "button1": "Gomb 1",
+        "button2": "Gomb 2",
+        "button3": "Gomb 3",
+        "button4": "Gomb 4",
+        "button5": "Gomb 5",
+        "button6": "Gomb 6",
+        "scrollUp": "Görgő fel",
+        "scrollDown": "Görgő le"
       },
       "liftDistance": {
         "title": "Lift Distance",
@@ -894,7 +894,7 @@
         "dragInstruction": "Drag the crosshairs to set the origin."
       },
       "idleTime": {
-        "setIdleIn": "Kapcsoljon pihenő módba",
+        "setIdleIn": "Pihenő mód",
         "disableIdle": "Pihenő mód kikapcsolása"
       },
       "recording": {
@@ -920,7 +920,7 @@
         "leftStick": "Left Stick",
         "rightStick": "Right Stick",
         "deadzone": "Deadzone",
-        "sensitivity": "Sensitivity",
+        "sensitivity": "Érzékenység",
         "maxValue": "Max Value",
         "invertX": "Invert X",
         "invertY": "Invert Y",
@@ -939,9 +939,9 @@
       }
         },
       "lcd": {
-        "title": "#TITLE# Settings",
-        "bestResults": "For best results, images should be #WIDTH#px x #HEIGHT#px and in black and white.",
-        "bestResultsWithAnimation": "For best results, images should be #WIDTH#px x #HEIGHT#px and in black and white.  Animations will play back at 10 frames per second.",
+        "title": "#TITLE# Beállítások",
+        "bestResults": "A legjobb eredményért, a kép legyen #WIDTH#px x #HEIGHT#px és fekete-fehér.",
+        "bestResultsWithAnimation": "A legjobb eredményért, a kép legyen #WIDTH#px x #HEIGHT#px és fekete-fehér. Az animáció 10 képkocka per másodperccel lesz megjelenítve.",
         "loadingImage": "Loading Image",
         "dither": "Dither",
         "invert": "Invert"
@@ -953,9 +953,9 @@
       "dts": {
         "headphonex": {
           "mode": {
-            "game": "Game",
-            "movie": "Movie",
-            "music": "Music"
+            "game": "Játék",
+            "movie": "Mozi",
+            "music": "Zene"
           },
           "tooltip": "When enabled, DTS Headphone:X virtual surround sound simulates the 3D environment of your audio's mixing stage. Select the Movie, Music, or Game presets to match your content."
         },
@@ -969,7 +969,7 @@
       "speedWithPlaceholder": "#PLACEHOLDER# Speed",
       "patternWithPlaceholder": "#PLACEHOLDER# Pattern",
       "bitmapEditor": {
-        "title": "Bitmap Editor"
+        "title": "Bitmap szerkesztő"
       },
       "simpleIlluminationWidget": {
         "tooltip": "Use this widget to choose how the LEDs on the keyboard behave. Select “Steady” if you would like the lights to remain constant. Select “Breathe” if you would like the lights to fade in and out, and then use the slider to choose the rate at which the “breathe” option functions."
@@ -1011,7 +1011,7 @@
         "noiseGateTooltip": "Automatically mutes the mic when you are not speaking to suppress background noise."
       },
       "dynamicRangeCompression": {
-        "title": "Dynamic Range Compression",
+        "title": "Dinamikus tartomány tömörítése",
         "tooltip": "This feature moderates variations in headphone volume so that all of your audio is delivered at the same discernible level."
       },
       "multiZone": {
@@ -1118,18 +1118,18 @@
       }
       },
     "presets": {
-      "presets": "Presets",
+      "presets": "Előbeállítás",
       "customLabel": "Egyéni",
       "presetBalanced": "Kiegyensúlyozott",
       "presetMusic": "Zene",
       "presetVoice": "Beszéd",
-      "presetEntertainment": "Entertainment",
+      "presetEntertainment": "Mozi",
       "presetMMO": "MMO",
       "presetFPS": "FPS",
       "presetSports": "Sport",
       "presetAction": "Robbanó akció",
       "presetImmersion": "Elmerülés",
-      "presetPerformance": "Teljssítmény",
+      "presetPerformance": "Teljesítmény",
       "presetMovie": "Film",
       "presetFlat": "Lapos"
     },
@@ -1174,7 +1174,7 @@
       },
     "macroEditor": {
       "macros": "Macros",
-      "windowTitle": "Macro Editor",
+      "windowTitle": "Makró Szerkesztő",
       "deleteMacro": "Delete Macro",
       "modalText": "Are you sure you want to delete macro MACRO_NAME?",
       "renameMacro": "Rename Macro",
@@ -1245,7 +1245,7 @@
         "manage": "Manage",
         "new": "New"
       },
-      "defaultActions": "Default",
+      "defaultActions": "Alapértelmezett",
       "metaAction": {
         "brightnessUp": "Brightness Up",
         "brightnessDown": "Brightness Down",
