@@ -42,7 +42,7 @@
       "stop": "Megállít",
       "submit": "Küldés",
       "loginSuccessful": "Belépés sikeres",
-      "logoutSuccessful": "Ki lettél jelentkezve",
+      "logoutSuccessful": "Ki lett jelentkezve",
       "signup": "Regisztráció most",
       "email": "Email",
       "password": "Jelszó",
@@ -73,7 +73,7 @@
       "slow": "Slow",
       "medium": "Közepes",
       "fast": "Fast",
-      "brightness": "Brightness",
+      "brightness": "Fényerősség",
       "headset": "Headset",
       "mouse": "Mouse",
       "version": "Version",
@@ -99,9 +99,9 @@
       "overwrite": "Overwrite",
       "keepBoth": "Keep Both",
       "dontShowThisAgain": "Don't show this again",
-      "image": "Kép",
-      "upload": "Feltöltés",
-      "contrast": "Contrast",
+      "image": "feltöltése",
+      "upload": "Kép",
+      "contrast": "Kontraszt",
       "lcd": "LCD",
       "macro": "Macro",
       "create": "Create",
@@ -125,8 +125,8 @@
       "white": "White",
       "time": "Time",
       "lengthMs": "Length (ms)",
-      "import": "Import",
-      "export": "Export",
+      "import": "Importálás",
+      "export": "Exportálás",
       "disabled": "Disabled",
       "none": "None",
       "download": "Download",
@@ -143,7 +143,7 @@
       "keyboards": "Billentyűzetek",
       "controller": "Kontroller",
       "controllers": "Kontrollerek",
-      "minutes": "Minutes",
+      "minutes": "Perc",
       "finish": "Finish",
       "mousepad": "Egérpad",
       "mousepads": "Egérpadok",
@@ -155,7 +155,7 @@
       "cursor": "Cursor",
       "tools": "Tools",
       "toggle": "Toggle",
-      "background": "Background",
+      "background": "Háttér",
       "static": "Static",
       "noAction": "No Action",
       "team": "Team"
@@ -173,21 +173,21 @@
       "configurationLabel": "Konfiguráció",
       "libraryTab": "Könyvtár",
       "library": {
-        "addApplicationCallout": "Did you know?",
-        "addApplicationDescription": "You can automatically change settings on your devices when you switch between applications.",
+        "addApplicationCallout": "Tudta?",
+        "addApplicationDescription": "Automatikusan megváltozathatja a beállításokat az eszközén amikor alkalmazások között vált.",
         "addApplicationClickme": "Click here to try it out now!",
         "addAnother": "Click here to link an application to a configuration",
         "addADevice": "Add a Device",
-        "addAnotherDevice": "Add Another Device",
+        "addAnotherDevice": "Másik eszköz hozzáadása",
         "deleteModalTitle": "Delete Application",
         "deleteModalText": "Are you sure you want to delete application APPLICATION_NAME?",
         "none": "None",
         "showMore": "Show More",
         "allDevicesSelected": "All devices for this application have been selected",
-        "configurationText": "Configurations",
-        "addApplication": "Add An Application",
-        "favoriteGame": "Your Favorite Game",
-        "configExample": "Soldier"
+        "configurationText": "Konfigurációk",
+        "addApplication": "Egy alkalmazás hozzáadása",
+        "favoriteGame": "Kedvenc Játéka",
+        "configExample": "Katona"
       },
       "taskbar": {
         "openClient": "Open SteelSeries Engine 3",
@@ -209,7 +209,7 @@
         "it": "Italian",
         "pt_br": "Brazilian Portuguese",
         "pt": "European Portuguese",
-        "restart": "Kérlek indítsd újra a SteelSeries Engine-t a nyelvi beállítások változtatásához.",
+        "restart": "Kérjük indítsa újra a SteelSeries Engine-t a nyelvi beállítások változtatásához.",
         "systemDefault": "Rendszer alapértelmezett"
       },
       "about": "Névjegy",
@@ -275,7 +275,7 @@
       "firmwareUpdateComplete": "Update complete. Please disconnect and reconnect your device to finish the process.",
       "firmwareUpdateFailure": "An error occurred that prevented the successful completion of the firmware update.",
       "startupSetting": {
-        "label": "Automatikus indítás SteelSeries Engine 3 bejelentkezéskor"
+        "label": "SteelSeries Engine 3 automatikus indítása"
       },
       "launch": "Indítás",
       "softwareVersion": "Szoftver Verziója",
@@ -356,14 +356,14 @@
         },
         "checkOut": "Click here to customize your GameSense settings.",
         "app": {
-          "description": "Használd a SteelSeries hardvered a játék információinak megjelenítésére a #GAME_NAME# játékból.",
+          "description": "Használja a SteelSeries hardverét a #GAME_NAME# információinak megjelenítésére.",
           "discord": {
-            "description": "Display custom effects on your devices from events in Discord. Notifications, users joining voice channel, self mute and more are supported.",
-            "download": "Download Discord to get started"
+            "description": "Jelenítsen meg egyéni effekteket az eszközén a Dicord éseményektől függően. Értesítések, felhasználó csatlakozása, némítás és még sok egyéb.",
+            "download": "Töltse le a Discordot, hogy belekezdjen"
           },
           "configure": "Konfigurálás #GAME#",
           "audiovisualizer": {
-            "description": "Nézd az eszközöd, amikor zenét hallgatsz. A támogatott Prism eszközök képesek a dinamikus hanghatások megjelenítésére."
+            "description": "Nézze eszközét, miközben zenét hallgat. A támogatott Prism eszközök képesek a dinamikus hanghatások megjelenítésére."
         }
       }
           },
@@ -389,7 +389,7 @@
       "appSettings": {
         "newSetting": "New Setting"
       },
-      "reconnectHeadset": "Csatlakoztasd a Headsetet",
+      "reconnectHeadset": "Csatlakoztassa a Headsetét",
       "dspVersionNumber": "DSP Version:",
       "mcuVersionNumber": "MCU Version:",
       "myDevices": {
@@ -418,7 +418,7 @@
       },
       "connectDevice": {
         "pleaseConnect": "Please Connect A SteelSeries Engine enabled device.",
-        "notSeeing": "Nem látod a cuccod? Miként van csatlakoztatva?",
+        "notSeeing": "Nem látja eszközét? Miként van csatlakoztatva?",
         "viaUsbQuestionMark": "USB?",
         "viaBluetoothQuestionMark": "Bluetooth?",
         "viaAnalogQuestionMark": "Jack dugó?"
@@ -430,15 +430,15 @@
       },
       "loginModal": {
         "login": {
-          "heading": "Login to Your Account:"
+          "heading": "Belépés a fiókjába:"
         },
         "signup": {
-          "heading": "First Time Here?",
-          "listHeading": "With a SteelSeries account you can:",
-          "listItem1": "Sync your settings across multiple computers using CloudSync.",
-          "listItem2": "Activate Software Features available with your Arctis 3 headset.",
-          "listItem3": "Enter exclusive contests and giveaways.",
-          "listItem4": "Access support for technical issues or questions."
+          "heading": "Először van itt?",
+          "listHeading": "A SteelSeries fiókkal képes lesz:",
+          "listItem1": "Szinkronizálni beállításait több számítógépen keresztül a CloudSync-et használva.",
+          "listItem2": "Szoftver lehetőségeket aktiválni az Arctis 3 headsetéhez.",
+          "listItem3": "Exkluzív versenyek és ajándékok.",
+          "listItem4": "Támogatás elérése technikai hibákhoz vagy kérdésekhez."
       }
         },
       "firmwareUpdateReconnectDeviceHeader": "Attention: Your #DEVICE_NAME# must be reconnected.",
@@ -473,8 +473,8 @@
         "author": "készítette: #AUTHOR#",
         "description": "Alkalmazások, amelyek kapcsolódhatnak a SteelSeries eszközökhöz.",
         "demo": {
-          "title": "Make Your Own App",
-          "description": "Visit our <a href=\"http://techblog.steelseries.com\" rel=\"external\">Techblog</a> to learn how you can make your very own app for SteelSeries Engine."
+          "title": "Készítse el saját alkalmazását",
+          "description": "Látogassa meg a <a href=\"http://techblog.steelseries.com\" rel=\"external\">Techblogunkat</a>, hogy megtanulja miképpen készítheti el saját alkalmazását a SteelSeries Engine-hoz."
         },
         "noSupportedDeviceConnected": {
           "title": "Unsupported Device"
@@ -485,32 +485,32 @@
       },
       "imageSync": {
         "title": "ImageSync",
-        "description": "Convert an animated GIF into an illumination effect for your keyboard. Final animation size is 22 x 6px.",
+        "description": "Konvertáljon egy animált GIF-et villágítási effekté a billentyűzetén. A végleges animáció mérete 22 x 6px.",
         "imageToolsTooltip": "Adjust your image to best fit your keyboard. Adjusting brightness and contrast may help improve the illumination effect of some images. Use the crop tool to change the size of your image. To set a background color for areas your image doesn't cover, use the background color tool.",
         "displayTooltip": "Import a GIF to get started. It will be displayed in the editor, allowing you to edit it before applying it to your keyboard. To start over, use the \"New Import\" button. To export your GIF to share, use the \"Export\" button. To display the GIF on your keyboard and save it in your history, use the \"Save\" button.",
         "myGifsTooltip": "This is a history of images you've created in the past that can be reused. To use a previous image, click on it, to see the animation in the frame, simply hover over the image.",
         "presetsTooltip": "Here's a curated collection of our favorite GIFs for you to get started with.",
-        "upload": "Import a GIF",
-        "aspectRatio": "Lock Aspect Ratio",
+        "upload": "GIF importálása",
+        "aspectRatio": "Képarány megtartása",
         "newUpload": "New Import",
-        "myGifs": "My GIFs",
+        "myGifs": "Saját GIFjeim",
         "editor": "ImageSync Editor",
-        "editPanel": "Edit Panel"
+        "editPanel": "Eszköztár"
       },
       "windowsCPI": {
         "mouseSettings": "Egér beállítások",
         "mouseAcceleration": "Windows egér gyorsítás",
-        "mouseAccelerationExplanation": "Having Windows pointer options enabled can negatively affect your native mouse tracking. We suggest having Enhanced Pointer Precision set to OFF and pointer speed set to the default value (no multiplier.)",
+        "mouseAccelerationExplanation": "A Windows mutató beállítások problémákat okozhatnak a natív egere irányításakor. Javasoljuk az Javított mutató pontosságának beállítását kikapcsolni és a sebességét alapon hagyani (nincs szorzó.)",
         "enhancedpointer": "Javított mutató pontosság: ",
         "pointerSpeed": "Mutató sebessége",
         "hasMultiplier": "Van szorzója",
         "noMultiplier": "Nincsen szorzója",
-        "fixCPISettings": "Fix these settings for me",
+        "fixCPISettings": "Ezen beállítások javítása számomra",
         "configWindowWarning": "Your mouse settings are being affected by Windows Pointer Options.",
-        "clickToFixCPI": "Click here to fix these settings."
+        "clickToFixCPI": "Kattintson ide, hogy kijavítsuk a beállításokat."
       },
       "widnowsCPI": {
-        "mouseSEttingsCheckboxInfo": "Override Windows Mouse Settings on Startup"
+        "mouseSEttingsCheckboxInfo": "Windows egér beállítások felülírása indításkor"
       }
       },
     "deviceConfig": {
@@ -873,7 +873,7 @@
         "imageNotSupported": "This file type is not supported."
       },
       "logoPlacement": {
-        "disable": "Disable Watermark"
+        "disable": "Vízjel kikapcsolása"
       },
       "templates": "Sablonok",
       "lockKeys": "Zárható billentyűk",
@@ -894,11 +894,11 @@
         "dragInstruction": "Drag the crosshairs to set the origin."
       },
       "idleTime": {
-        "setIdleIn": "Pihenő mód",
+        "setIdleIn": "Pihenés",
         "disableIdle": "Pihenő mód kikapcsolása"
       },
       "recording": {
-        "pressAKey": "Press a key"
+        "pressAKey": "Nyomjon egy gombot"
       },
       "effectTooltips": {
         "steadyColor": "When Steady is applied to one or more keys, they will be illuminated with a single color. Use the color picker to the left to choose a color.",
@@ -1089,7 +1089,7 @@
           "desc": "Click on a zone to select all zones that share the same effect."
         },
         "undo": {
-          "name": "Undo",
+          "name": "Visszavonás",
           "desc": "Undo the last change made in Effect settings."
         },
         "brush": {
@@ -1111,10 +1111,10 @@
         "additionalTools": "Additional Tools"
       },
       "imageTools": {
-        "crop": "Crop",
-        "rotate": "Rotate",
-        "flip": "Flip",
-        "title": "Image Tools"
+        "crop": "Vágás",
+        "rotate": "Forgat",
+        "flip": "Fordítás",
+        "title": "Kép eszközök"
       }
       },
     "presets": {
@@ -1202,22 +1202,22 @@
       },
       "insertDelay": "Insert Delay",
       "mouseButton": {
-        "button1": "Button 1",
-        "button2": "Button 2",
-        "button3": "Button 3",
-        "button4": "Button 4",
-        "button5": "Button 5",
-        "button6": "Button 6",
-        "scrollUp": "Scroll Up",
-        "scrollDown": "Scroll Down",
-        "cpiToggle": "CPI Toggle",
-        "button7": "Button 7",
-        "button8": "Button 8",
-        "button9": "Button 9",
-        "button10": "Button 10",
-        "button11": "Button 11",
-        "button12": "Button 12",
-        "button13": "Button 13",
+        "button1": "Gomb 1",
+        "button2": "Gomb 2",
+        "button3": "Gomb 3",
+        "button4": "Gomb 4",
+        "button5": "Gomb 5",
+        "button6": "Gomb 6",
+        "scrollUp": "Görgő fel",
+        "scrollDown": "Görgő le",
+        "cpiToggle": "CPI kapcsoló",
+        "button7": "Gomb 7",
+        "button8": "Gomb 8",
+        "button9": "Gomb 9",
+        "button10": "Gomb 10",
+        "button11": "Gomb 11",
+        "button12": "Gomb 12",
+        "button13": "Gomb 13",
         "acPanLeft": "Tilt Left",
         "acPanRight": "Tilt Right"
       },
@@ -1234,16 +1234,16 @@
         "commands": "COMMANDS"
       },
       "mediaAction": {
-        "mute": "Mute",
-        "next": "Next",
-        "playPause": "Play/Pause",
-        "previous": "Previous",
-        "volumeUp": "Volume Up",
-        "volumeDown": "Volume Down"
+        "mute": "Mémítás",
+        "next": "Következő",
+        "playPause": "Lejátszás/Szünet",
+        "previous": "Előzős",
+        "volumeUp": "Hangerő fel",
+        "volumeDown": "Hangerő le"
       },
       "quickSet": {
-        "manage": "Manage",
-        "new": "New"
+        "manage": "Kezelés",
+        "new": "Új"
       },
       "defaultActions": "Alapértelmezett",
       "metaAction": {
@@ -1302,8 +1302,8 @@
         "copy": "Copy",
         "cut": "Cut",
         "paste": "Paste",
-        "undo": "Undo",
-        "redo": "Redo",
+        "undo": "Visszavonás",
+        "redo": "Mégis",
         "close_window": "Close Window/Tab",
         "close_application": "Close Application",
         "capture_window": "Capture Window to Clipboard",
