@@ -7,7 +7,7 @@
     },
     "formats": {
       "date": "YYYY/MM/DD"
-    },
+    },  
     "common": {
       "yes": "Igen",
       "no": "Nem",
@@ -19,55 +19,55 @@
       "new": "Új",
       "delete": "Töröl",
       "revert": "Visszallít",
-      "edit": "Edit",
-      "discard": "Discard",
-      "saveAs": "Save As",
+      "edit": "Szerkesztés",
+      "discard": "Elvet",
+      "saveAs": "Mentés másként",
       "on": "Be",
       "off": "Ki",
       "ok": "Oké",
       "done": "Done",
       "close": "Bezár",
-      "next": "Next",
-      "update": "Update",
+      "next": "Következő",
+      "update": "Frissítés",
       "start": "Start",
       "notConnected": "Leválasztva",
       "about": "Névjegy",
       "clear": "Clear",
-      "rename": "Rename",
-      "manage": "Manage",
+      "rename": "Átnevezés",
+      "manage": "Kezelés",
       "wheel": "Wheel",
       "logo": "Logo",
-      "restore": "Restore",
-      "warning": "Warning",
-      "stop": "Stop",
-      "submit": "Submit",
-      "loginSuccessful": "Login Successful",
-      "logoutSuccessful": "You have been signed out",
-      "signup": "Register now",
+      "restore": "Visszaállítás",
+      "warning": "Figyelmeztetés",
+      "stop": "Megállít",
+      "submit": "Küldés",
+      "loginSuccessful": "Belépés sikeres",
+      "logoutSuccessful": "Ki lettél jelentkezve",
+      "signup": "Regisztráció most",
       "email": "Email",
-      "password": "Password",
-      "forgotPassword": "Forgot your password?",
-      "preferences": "Preferences",
-      "myAccount": "My Account",
-      "logout": "Sign out",
-      "forceSync": "Force Sync",
+      "password": "Jelszó",
+      "forgotPassword": "Elfelejetted jelszavad?",
+      "preferences": "Beállításaim",
+      "myAccount": "Fiókom",
+      "logout": "Kijelentkezés",
+      "forceSync": "Azonnali szinkronizáció",
       "syncUp": "Sync Up.",
-      "signIn": "Sign In",
-      "noAccount": "Don't have an account?",
-      "autoSync": "Auto Sync",
+      "signIn": "Belépés",
+      "noAccount": "Nincs még fiókod?",
+      "autoSync": "Auto Szinkronizáció",
       "base": "Base",
-      "beta": "Fejlesztés alatt",
-      "learnMore": "Learn More",
-      "signUpNow": "Sign up now!",
-      "back": "Back",
+      "beta": "Béta",
+      "learnMore": "Tuddj meg többet",
+      "signUpNow": "Regisztráció most!",
+      "back": "Vissza",
       "gaming": "High-Performance Mode",
       "balanced": "Balanced Mode",
       "marathon": "Power Saver Mode",
-      "custom": "Custom Mode",
-      "loading": "Loading",
-      "low": "Low",
-      "high": "High",
-      "introducing": "Introducing...",
+      "custom": "Egyéni mód",
+      "loading": "Betöltés",
+      "low": "Alacsony",
+      "high": "Magas",
+      "introducing": "Bemutatjuk...",
       "steelseriesID": "SteelSeries ID",
       "intensity": "Intensity",
       "slow": "Slow",
@@ -79,15 +79,15 @@
       "version": "Version",
       "theme": "Theme",
       "milliseconds": "ms",
-      "active": "Active",
+      "active": "Aktív",
       "sleep": "Sleep",
       "use": "Use",
       "timer": "Timer",
       "trigger": "Trigger",
-      "idle": "Idle",
+      "idle": "Pihenő",
       "speed": "Speed",
-      "history": "History",
-      "secondsNonAbbreviated": "seconds",
+      "history": "Előzmények",
+      "secondsNonAbbreviated": "másodperc múlva",
       "set": "Set",
       "moreInfo": "More Info",
       "delay": "Delay",
@@ -145,11 +145,11 @@
       "controllers": "Kontrollerek",
       "minutes": "Minutes",
       "finish": "Finish",
-      "mousepad": "Mousepad",
-      "mousepads": "Mousepads",
-      "motherboard": "Motherboard",
-      "motherboards": "Motherboards",
-      "inactive": "Inactive",
+      "mousepad": "Egérpad",
+      "mousepads": "Egérpadok",
+      "motherboard": "Alaplap",
+      "motherboards": "Alaplapok",
+      "inactive": "Inaktív",
       "configure": "Konfiguráció",
       "reactive": "Reactive",
       "cursor": "Cursor",
@@ -162,10 +162,10 @@
     },
     "main": {
       "windowTitle": "SteelSeries Engine 3",
-      "gearTab": "Cuccaim",
+      "gearTab": "Eszközök",
       "appsTab": "Alkalmazasok",
       "noDevices": "Plug in a SteelSeries device to get started",
-      "hideDeviceTitle": "Hide Device",
+      "hideDeviceTitle": "Eszköz elrejtése",
       "hideDevice": "Are you sure you want to hide DEVICE_NAME?",
       "offlineBadge": "Offline",
       "fwUpdateBadge": "CRITICAL UPDATE: Click to install new firmware.",
@@ -221,11 +221,11 @@
         "soundcard": "Optimize Soundcard",
         "optimize": "Optimize"
       },
-      "firmwareVersionNumber": "Firmware Version:",
+      "firmwareVersionNumber": "Firmware Verziója:",
       "aboutHeader": "DEVICE_NAME Információ",
       "optimizeDropdown": "Optimize for:",
       "update": {
-        "upToDate": "A SteelSeries Engine 3 rendszerkész.",
+        "upToDate": "A SteelSeries Engine 3 naprakész.",
         "header": "Szoftver frissítések",
         "versionNumber": "Ver:",
         "changeLog": "Változások:",
@@ -290,9 +290,9 @@
         "forceSyncExplanation": "Manually sync to the cloud."
       },
       "chargeMode": {
-        "charging": "Charging",
-        "charged": "Charged",
-        "remaining": "Remaining"
+        "charging": "Töltés",
+        "charged": "Feltöltve",
+        "remaining": "Hátravan"
       },
       "nextDeviceFirmwareUpdateText": "Plug the #DEVICE_NAME# into your computer with the USB cable to perform the update",
       "cloudIntro": {
@@ -455,9 +455,9 @@
           "inactiveMode": "When enabled, Sleep Mode will turn off all illumination and effects on your PrismSync devices when your display goes to sleep. When disabled, the illumination effects will continue running.",
           "templates": "Templates are predefined lighting patterns will which apply to all devices for which PrismSync is enabled"
         },
-        "leftHanded": "Left Handed Mouse Mode",
+        "leftHanded": "Bal kezes egér mód",
         "noSupportedDeviceConnected": {
-          "message": "No PrismSync Supported #DEVICETYPE# Connected"
+          "message": "Nincs PrismSync támogatott #DEVICETYPE# csatlakoztatva"
         },
         "inactiveMode": "Sleep Mode",
         "widgetInline": {
@@ -466,7 +466,7 @@
         "reactiveActivatedBy": "Activated By",
         "anyMouseClick": "Any Mouse Click",
         "anyKeyboardKey": "Any Keyboard Key",
-        "description": "Illumination and effects that span across all of your SteelSeries devices."
+        "description": "Világítások és effektek amelyek and effects that átszállnak a SteelSeries eszközeiden."
       },
       "engineApps": {
         "title": "Alkalmazások",
@@ -526,8 +526,8 @@
       "modalRevertConfigTitle": "Discard Changes",
       "modalRevertConfigText": "Your changes have not been saved. Discard changes?",
       "livePreview": {
-        "on": "Live Preview On",
-        "off": "Live Preview Off"
+        "on": "Élő megtekintés Be",
+        "off": "Élő megtekintés Ki"
       },
       "applicationAutoLaunch": "Autolaunch with Applications",
       "modalSaveImmutableText": "This configuration cannot be overwritten. Would you like to save this as a new configuration?",
@@ -638,7 +638,7 @@
       },
       "chooseOutputDevice": "Choose output device",
       "chooseInputDevice": "Choose input device",
-      "infoAndHelp": "Product Information and Help",
+      "infoAndHelp": "Termék információ és Súgó",
       "prismSyncWarning": {
         "message1": "PrismSync is currently controlling this device.",
         "message2": "Click here to disable PrismSync"
@@ -684,33 +684,33 @@
       "autoMicGain": "Auto Mic Compression",
       "led": {
         "effects": {
-          "steady": "Steady",
-          "breathe": "Breathe",
-          "trigger": "Audio Volume Trigger",
-          "colorShift": "ColorShift",
-          "batteryStatus": "Battery Status",
-          "nonAudioTrigger": "Trigger",
+          "steady": "Állandó",
+          "breathe": "Lélegézs",
+          "trigger": "Hanghullám aktiválás",
+          "colorShift": "Színváltó",
+          "batteryStatus": "Akksi állapota",
+          "nonAudioTrigger": "Elsütő",
           "reactiveColor": {
-            "title": "Reactive Key",
-            "activeColor": "Active Color",
-            "restColor": "Rest Color"
+            "title": "Újraaktiváló billentyű",
+            "activeColor": "Aktív szín",
+            "restColor": "Pihenő szín"
           },
           "mixed": {
-            "title": "Mixed"
+            "title": "Kevert"
           },
-          "disabled": "Disable Illumination",
-          "onboardBreathe": "Single Color Breathe",
-          "multiColorBreathe": "Multi Color Breathe"
+          "disabled": "Világítás kikapcsolása",
+          "onboardBreathe": "Egyszinű lélegzés",
+          "multiColorBreathe": "Többszinű lélegzés"
         },
         "breatheSpeeds": {
-          "slow": "Slow",
-          "medium": "Medium",
-          "fast": "Fast"
+          "slow": "Lassú",
+          "medium": "Közepes",
+          "fast": "Gyors"
         },
-        "disableIllumination": "Disable Illumination",
-        "breatheSpeedLabel": "Speed",
-        "dialogTitle": "Illumination",
-        "effectsLabel": "Effects",
+        "disableIllumination": "Világítás kikapcsolása",
+        "breatheSpeedLabel": "Sebesség",
+        "dialogTitle": "Világítás",
+        "effectsLabel": "Effektek",
         "title": "LED",
         "disabledIlluminationMessage": "Color settings are not available when Disable Illumination is checked.",
         "disabledColorForColorShift": "Color settings are not available when ColorShift is enabled.",
@@ -840,7 +840,7 @@
           "line2": "Illumination may appear incorrectly if the selected Keyboard Region in the software does not match your physical keyboard."
       }
         },
-      "viewOptions": "View Options",
+      "viewOptions": "Opciók megtekintése",
       "lightingMode": {
         "illumOff": "Illumination Off",
         "steady": "Steady Mode",
@@ -875,10 +875,10 @@
       "logoPlacement": {
         "disable": "Disable Watermark"
       },
-      "templates": "Templates",
-      "lockKeys": "Lock Keys",
-      "keyBindings": "Key Bindings",
-      "illumination": "Illumination",
+      "templates": "Sablonok",
+      "lockKeys": "Zárható billentyűk",
+      "keyBindings": "Billentyű lenyomások",
+      "illumination": "Világítás",
       "softwareEffects": {
         "cooldownTimer": {
           "title": "Cooldown Timer",
@@ -894,8 +894,8 @@
         "dragInstruction": "Drag the crosshairs to set the origin."
       },
       "idleTime": {
-        "setIdleIn": "Set idle in",
-        "disableIdle": "Disable Idle"
+        "setIdleIn": "Kapcsoljon pihenő módba",
+        "disableIdle": "Pihenő mód kikapcsolása"
       },
       "recording": {
         "pressAKey": "Press a key"
@@ -1053,7 +1053,7 @@
         "marquee": "Marquee",
         "meteor": "Meteor",
         "waterDroplet": "Water Droplet",
-        "rainbow": "Rainbow",
+        "rainbow": "Szivárvány",
         "flashLighting": "Flash-Lighting",
         "multiflash": "Multi-Flash"
       },
@@ -1119,19 +1119,19 @@
       },
     "presets": {
       "presets": "Presets",
-      "customLabel": "Custom",
-      "presetBalanced": "Balanced",
-      "presetMusic": "Music",
-      "presetVoice": "Voice",
+      "customLabel": "Egyéni",
+      "presetBalanced": "Kiegyensúlyozott",
+      "presetMusic": "Zene",
+      "presetVoice": "Beszéd",
       "presetEntertainment": "Entertainment",
       "presetMMO": "MMO",
       "presetFPS": "FPS",
-      "presetSports": "Sports",
-      "presetAction": "Explosive Action",
-      "presetImmersion": "Immersion",
-      "presetPerformance": "Performance",
-      "presetMovie": "Movie",
-      "presetFlat": "Flat"
+      "presetSports": "Sport",
+      "presetAction": "Robbanó akció",
+      "presetImmersion": "Elmerülés",
+      "presetPerformance": "Teljssítmény",
+      "presetMovie": "Film",
+      "presetFlat": "Lapos"
     },
     "nativeLanguage": {
       "language": {
@@ -1265,29 +1265,29 @@
     },
     "templates": {
       "lightingTemplates": {
-        "americanFlag": "American Flag",
-        "defaultActiveMode": "Default Active Mode",
-        "defaultIdleMode": "Default Idle Mode",
-        "staticColorshift": "Static ColorShift",
-        "horizontalWave": "Horizontal Wave",
-        "verticalWaveUp": "Vertical Wave Up",
-        "verticalWaveDown": "Vertical Wave Down",
-        "fourColorBreathe": "4-Color Breathe",
-        "warpDrive": "Warp Drive",
-        "rainbow": "Rainbow",
-        "discoMode": "Disco Mode",
-        "eyesInTheDark": "Eyes in the Dark",
-        "firingLasers": "Firing Lasers",
-        "loading": "Loading",
+        "americanFlag": "Amerikai zászló",
+        "defaultActiveMode": "Alapértelmezett aktív mód",
+        "defaultIdleMode": "Alapértelmezett tétlen mód",
+        "staticColorshift": "Statikus Színváltó",
+        "horizontalWave": "Vízszintes hullám",
+        "verticalWaveUp": "Függőleges hullám fel",
+        "verticalWaveDown": "Függőleges hullám le",
+        "fourColorBreathe": "4-szinű lélegzés",
+        "warpDrive": "Őrült vezetés",
+        "rainbow": "Szivárvány",
+        "discoMode": "Diszkó mód",
+        "eyesInTheDark": "Szemek a sötétben",
+        "firingLasers": "Tüzelő lézerek",
+        "loading": "Betöltés",
         "macaw": "Macaw",
         "defaultReactiveMode": "Default Reactive Mode",
-        "steelseriesOrange": "SteelSeries Orange",
+        "steelseriesOrange": "SteelSeries narancs",
         "orangeFade": "Orange Fade",
-        "disabled": "Disabled",
-        "randomHorizontal": "Random Horizontal",
-        "randomVertical": "Random Vertical",
-        "randomBreathe": "Random Breathe",
-        "default": "Default",
+        "disabled": "Kikapcsolva",
+        "randomHorizontal": "Véletlenszerű vízszintes",
+        "randomVertical": "Véletlenszerű függőleges",
+        "randomBreathe": "Véletlenszerű lélegézs",
+        "default": "Alapértelmezett",
         "moat": "Moat"
       }
       },
@@ -1344,7 +1344,7 @@
       },
       "events": "Game Events",
       "effects": {
-        "label": "Effects",
+        "label": "Effektek",
         "singleColor": {
           "label": "Single Color",
           "tooltip": "Illumination will be on when the value of the event in game is above 0, and off when it's at 0. When \"Display as bar\" is enabled, the illuminated area will shrink or grow based on conditions in the game.",
